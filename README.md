@@ -89,8 +89,8 @@ y_pred = classifier.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 conf_matrix = confusion_matrix(y_test, y_pred)
 
-print("Accuracy:", accuracy)
-print("Confusion Matrix:\n", conf_matrix)
+print("The accuracy of model is :", accuracy)
+print("The Confusion Matrix is:\n", conf_matrix)
 ```
 
 ---
@@ -118,10 +118,14 @@ pip install -r requirements.txt
 2. Add the dataset to the appropriate directories (`spam` and `ham` folders).
 3. Run the Jupyter Notebook or Python script:
    ```bash
-   python spam_detection.py
+   python Cybersecurity_final_project.ipynb
    ```
 
 ---
 
 ## **Dataset**
 The dataset is sourced from the [SpamAssassin Public Corpus](http://spamassassin.apache.org/publiccorpus/).
+
+## **For a detailed explanation of the project and the steps involved, check out the full article on Medium:**
+https://medium.com/@syedm.upwork/building-a-spam-detection-system-with-machine-learning-3a7e1eb10bc3
+
